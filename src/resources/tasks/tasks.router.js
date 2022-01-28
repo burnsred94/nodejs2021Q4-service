@@ -7,25 +7,26 @@ const Task = require("./tasks.model")
 
 
 
-router.route('/:boardId/tasks')
+router.route('/tasks')
   .get(async (req, res) =>{
     const getAllTask = await taskService.getAllTask()
     res.json(getAllTask, STATUS_CODE.OK)
   })
   .post(async (req, res) =>{
+
     const creatTask = new Task({
       title : req.body.title,
       order : req.body.order,
       description : req.body.description,
       boardId : req.params.boardId,
       columnId : null,
-      userId : null
+      userId : null,
     })
       const task = await taskService.creatTask(creatTask)
       res.json(task, STATUS_CODE.CREATE)
   })
 
-router.route('/:boardId/tasks/:taskId')
+router.route('/tasks/:taskId')
   .get(async (req, res) =>{
     const taskById = await taskService.getById(req.params.taskId);
       if(!taskById){

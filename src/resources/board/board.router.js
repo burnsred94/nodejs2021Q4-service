@@ -1,5 +1,6 @@
 const router = require('express').Router({mergeParams : true});
 const boardService = require("./board.service");
+const taskService = require('../tasks/tasks.service')
 const Board = require("./board.model")
 const { STATUS_CODE } = require('../../common/constans');
 
@@ -30,7 +31,8 @@ router.route('/:boardId')
     })
     .delete(async (req, res) =>{
         const boardDelete = await boardService.boardDelete(req.params.boardId)
-        if(boardDelete === true){
+        const taskDelete = await taskService.deleteTaskInBoard(req.params.boardId)
+        if(boardDelete && taskDelete === true){
             res.json({message : 'Delete successfully'}, STATUS_CODE.NO_CONTENT)
         }else{
             res.json({message : 'Not Found'}, STATUS_CODE.BAD_REQUEST)

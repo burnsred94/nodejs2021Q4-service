@@ -15,7 +15,6 @@ class InMemoryDatabase {
 
 }
 
-const database = new InMemoryDatabase()
 
 
-module.exports = database;
+module.exports = new InMemoryDatabase();

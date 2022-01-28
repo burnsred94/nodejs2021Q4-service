@@ -28,5 +28,6 @@ class UsersDB {
 
 };
 
-module.exports = new UsersDB ();
+
+module.exports = new UsersDB();
 

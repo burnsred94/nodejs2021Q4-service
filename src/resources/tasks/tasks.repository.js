@@ -25,6 +25,16 @@ class TasksDB {
     deleteTask(id){
       return this.tasksCollection.delete(id)
     }
+
+   async deleteTaskInBoard(id){
+      const allTasks = await this.tasksCollection.getAll()
+      allTasks.forEach((t) =>{
+        if(t.boardId === id){
+            this.deleteTask(t.id)
+        }
+      })
+      return true
+    }
 }
 
 

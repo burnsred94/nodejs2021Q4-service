@@ -8,6 +8,8 @@ const creatTask = (task) => taskRepo.creatTask(task);
 
 const deleteTask = (taskId) => taskRepo.deleteTask(taskId);
 
+const deleteTaskInBoard = (boardId)=> taskRepo.deleteTaskInBoard(boardId)
+
 const updateTask = (update) => taskRepo.updateTask(update);
 
 module.exports = {
@@ -15,5 +17,6 @@ module.exports = {
   getById,
   creatTask,
   deleteTask,
-  updateTask
+  updateTask,
+  deleteTaskInBoard
 }

@@ -6,23 +6,24 @@ class BoardDB {
   }
 
   createBoard(board){
-    return this.boardCollection.insert(board)
+    return this.boardCollection.insert(board);
   };
 
   getAllBoard(){
-    return this.boardCollection.getAll()
+    return this.boardCollection.getAll();
   };
 
   getBoardId(boardId){
-    return this.boardCollection.getId(boardId)
+    return this.boardCollection.getId(boardId);
   };
 
   deleteBoard(boardId){
-    return this.boardCollection.delete(boardId)
+
+    return this.boardCollection.delete(boardId);
   };
 
   updateBoard(dataUpdate){
-    return this.boardCollection.update(dataUpdate)
+    return this.boardCollection.update(dataUpdate);
   }
 
 }
