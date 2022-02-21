@@ -1,15 +1,23 @@
-const { v4:uuid } = require('uuid')
+import { v4 as uuid } from 'uuid'
+import { ITask } from './tasks.types'
 
 
-class Task {
+export class Task implements ITask{
+  id : string
+  title : string
+  order : number
+  description : string
+  userId : null
+  boardId : string
+  columnId : null
   constructor({
     id = uuid(),
     title = "Title",
-    order = '0',
+    order = 0,
     description = 'Description',
-    userId = '',
+    userId = null,
     boardId = '',
-    columnId = ''
+    columnId = null
               } = {}) {
     this.id = id;
     this.title = title;
@@ -19,11 +27,7 @@ class Task {
     this.boardId = boardId;
     this.columnId = columnId;
 
-
   }
 
 }
 
-
-
-module.exports = Task
