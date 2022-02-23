@@ -3,15 +3,13 @@ import { Task } from './tasks.model';
 
 const taskRepo = new TasksDB();
 
-const getAllTask = () => taskRepo.getAll();
+const getAllTask = (id: string) => taskRepo.getAll(id);
 
 const getById = (id: string) => taskRepo.getById(id);
 
 const creatTask = (task : Task) => taskRepo.creatTask(task);
 
 const deleteTask = (id : string) => taskRepo.deleteTask(id);
-
-const deleteTasksInBoard = (id : string)=> taskRepo.deleteTasksInBoard(id)
 
 const updateTask = (id : string, task : Task) => taskRepo.updateTask(id,task);
 
@@ -20,6 +18,5 @@ export  {
   getById,
   creatTask,
   deleteTask,
-  updateTask,
-  deleteTasksInBoard
+  updateTask
 }

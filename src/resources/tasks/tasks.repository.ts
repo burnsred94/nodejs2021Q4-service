@@ -4,40 +4,34 @@ import { Task } from './tasks.model';
 
 
 export class TasksDB {
-  private tasksCollection : InMemoryDatabaseCollection<Task>
+  private tasksCollection : InMemoryDatabaseCollection<Task>;
 
   constructor() {
-    this.tasksCollection = new InMemoryDatabase().getOrAddCollection(Task)
+    this.tasksCollection = new InMemoryDatabase().getOrAddCollection(Task);
   }
 
-    getAll() : Promise<Task[]>{
-      return this.tasksCollection.getAll();
-    };
+   async getAll(id: string) : Promise<Task[]>{
+      const tasks = await this.tasksCollection.getAll();
+      return new Promise<Task[]>((resolve) => {
+        const result = tasks.filter((task) => task.boardId === id);
+        resolve(result);
+      });
+   };
 
     getById(id : string) {
-      return this.tasksCollection.getId(id)
+      return this.tasksCollection.getId(id);
     };
 
     creatTask(task : Task) {
-      return this.tasksCollection.insert(task)
+      return this.tasksCollection.insert(task);
     };
 
     updateTask(id : string, task : Task){
-      return this.tasksCollection.update(id, task)
+      return this.tasksCollection.update(id, task);
     };
 
     deleteTask(id : string) : Promise<void>{
-        return this.tasksCollection.delete(id)
+        return this.tasksCollection.delete(id);
     };
 
-    async deleteTasksInBoard(id : string) : Promise <true | undefined> {
-      const allTasks = await this.tasksCollection.getAll()
-         const task =  allTasks.find((t) => t.boardId = id)
-          if(!task){
-            return task
-          }else {
-            await this.tasksCollection.delete(task.id)
-            return true
-          }
-    }
 }

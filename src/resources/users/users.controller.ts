@@ -12,62 +12,62 @@ export class UsersController {
         name: req.body.name,
         login: req.body.login,
         password: req.body.password
-      })
+      });
       const user = await serviceUser.createUser(newUser);
         res.status(STATUS_CODE.CREATE).json(User.toResponse(user));
     } catch (e) {
-        res.status(STATUS_CODE.SERVER_ERROR).send(e.message);
+        res.status(STATUS_CODE.SERVER_ERROR).json({message : "Create user server error"});
     }
   };
 
  async updateUser(req: express.Request, res : express.Response) {
    try {
-     const getUser = await serviceUser.getById(req.params.userId)
+     const getUser = await serviceUser.getById(req.params.userId);
      if(getUser) {
        const user: User = new User({
          id: req.params.userId,
          name: req.body.name,
          login: req.body.login,
          password: req.body.password
-       })
+       });
        await serviceUser.updateUser(req.params.userId, user);
        res.status(STATUS_CODE.OK).json(User.toResponse(user));
      }
    } catch (e) {
-        res.status(STATUS_CODE.SERVER_ERROR).send(e.message);
+        res.status(STATUS_CODE.SERVER_ERROR).json({message : "Update user server error"});
    }
  }
  async getAll(req: express.Request, res : express.Response) {
    try{
-      const getAllUsers = await serviceUser.getAll()
-        res.status(STATUS_CODE.OK).json(getAllUsers.map(User.toResponse))
+      const getAllUsers = await serviceUser.getAll();
+        res.status(STATUS_CODE.OK).json(getAllUsers.map(User.toResponse));
    }catch (e) {
-        res.status(STATUS_CODE.SERVER_ERROR).send(e.message)
+        res.status(STATUS_CODE.SERVER_ERROR).json({message : "Get users server error"});
    }
  }
   async getById (req: express.Request, res : express.Response) {
    try {
-     const user  = await serviceUser.getById(req.params.userId)
+     const user  = await serviceUser.getById(req.params.userId);
       if(!user){
-          res.status(STATUS_CODE.NOT_FOUND).json({message : "User not found"})
+          res.status(STATUS_CODE.NOT_FOUND).json({message : "User not found"});
       }else {
-          res.status(STATUS_CODE.OK).json(User.toResponse(user))
+          res.status(STATUS_CODE.OK).json(User.toResponse(user));
       }
    }catch (e) {
-         res.status(STATUS_CODE.SERVER_ERROR).send(e.message)
+         res.status(STATUS_CODE.SERVER_ERROR).json({message : "Get user server error"});
    }
   }
   async deleteUser (req: express.Request, res : express.Response) {
    try {
-      const user = await serviceUser.getById(req.params.userId)
+      const user = await serviceUser.getById(req.params.userId);
       if(user){
-          await serviceUser.deleteUser(req.params.userId)
-          res.status(STATUS_CODE.OK).json({message : "User delete"})
+          await serviceUser.deleteUser(req.params.userId);
+          res.status(STATUS_CODE.OK).json({message : "User delete"});
       }else{
-          res.status(STATUS_CODE.NOT_FOUND).json({message: `User ${req.params.userId} not found`})
+          res.status(STATUS_CODE.NOT_FOUND).json({message: `User ${req.params.userId} not found`});
       }
    }catch (e) {
-        res.status(STATUS_CODE.SERVER_ERROR).send(e.message)
+        res.status(STATUS_CODE.SERVER_ERROR).json({message : "Delete user server error"});
    }
   }
 }

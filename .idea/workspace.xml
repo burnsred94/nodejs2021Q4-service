@@ -42,43 +42,28 @@
       <change afterPath="$PROJECT_DIR$/dist/resources/users/user.types.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/dist/resources/users/user.validator.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/dist/resources/users/users.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/database/database.type.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/validatorDataRequsets.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/board/board.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/board/board.router.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/board/board.types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/board/board.validator.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/tasks/tasks.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/tasks/tasks.types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/tasks/tasks.validator.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/users/user.types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/users/user.validator.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/users/users.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/constans.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/constans.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/database/InMemoryDatabase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/database/InMemoryDatabase.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/database/InMemoryDatabaseCollection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/database/InMemoryDatabaseCollection.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/board/board.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/board/board.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/board/board.repository.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/board/board.repository.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/board/board.router.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/board/board.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/board/board.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/tasks/tasks.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/tasks/tasks.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/tasks/tasks.repository.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/tasks/tasks.repository.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/tasks/tasks.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/tasks/tasks.router.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/tasks/tasks.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/tasks/tasks.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/users/user.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/users/user.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/users/user.repository.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/users/user.repository.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/users/user.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/users/user.router.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/users/user.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/users/user.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/board/board.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/board/board.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/board/board.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/board/board.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/board/board.repository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/board/board.repository.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/board/board.router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/board/board.router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/board/board.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/board/board.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/board/board.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/board/board.types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/board/board.validator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/board/board.validator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/tasks/tasks.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/tasks/tasks.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/tasks/tasks.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/tasks/tasks.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/tasks/tasks.repository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/tasks/tasks.repository.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/tasks/tasks.router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/tasks/tasks.router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/tasks/tasks.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/tasks/tasks.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/tasks/tasks.validator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/tasks/tasks.validator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/users/user.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/users/user.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/users/user.repository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/users/user.repository.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/users/user.router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/users/user.router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/users/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/users/user.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/users/user.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/users/user.types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/users/user.validator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/users/user.validator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/users/users.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/users/users.controller.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,9 +78,14 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Oleg Kamenshikov &lt;67732974+burnsred94@users.noreply.github.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="rest-file" />
+        <entry key="$PROJECT_DIR$" value="final-rest" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -230,48 +220,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.Tasks suite.DELETE.should delete task successfully">
-    <configuration name="Tasks suite.DELETE" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/test/e2e/test/tasks.test.js" />
-      <test-names>
-        <test-name value="Tasks suite" />
-        <test-name value="DELETE" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Tasks suite.DELETE.should delete task successfully" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.Boards suite.DELETE.should delete board's tasks upon deletion">
+    <configuration name="Boards suite.DELETE.should delete board's tasks upon deletion" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/test/e2e/test/tasks.test.js" />
+      <test-file value="$PROJECT_DIR$/test/e2e/test/boards.test.js" />
       <test-names>
-        <test-name value="Tasks suite" />
+        <test-name value="Boards suite" />
         <test-name value="DELETE" />
-        <test-name value="should delete task successfully" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Users suite.PUT.should get 401 without token presented " type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/test/e2e/test-auth/users.test.js" />
-      <test-names>
-        <test-name value="Users suite" />
-        <test-name value="PUT" />
-        <test-name value="should get 401 without token presented " />
+        <test-name value="should delete board's tasks upon deletion" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -280,6 +241,16 @@
       <command value="run" />
       <scripts>
         <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -295,13 +266,23 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.Tasks suite.DELETE.should delete task successfully" />
-        <item itemvalue="Jest.Tasks suite.DELETE" />
+        <item itemvalue="npm.lint" />
+        <item itemvalue="npm.test" />
         <item itemvalue="npm.build" />
-        <item itemvalue="Jest.Users suite.PUT.should get 401 without token presented " />
         <item itemvalue="npm.start" />
+        <item itemvalue="Jest.Boards suite.DELETE.should delete board's tasks upon deletion" />
       </list>
     </recent_temporary>
   </component>
@@ -344,8 +325,21 @@
       <workItem from="1645215513260" duration="118000" />
       <workItem from="1645215673671" duration="4316000" />
       <workItem from="1645346179307" duration="14453000" />
-      <workItem from="1645440181207" duration="2925000" />
+      <workItem from="1645440181207" duration="4992000" />
+      <workItem from="1645456903519" duration="1698000" />
+      <workItem from="1645469090129" duration="2691000" />
+      <workItem from="1645475763323" duration="1205000" />
+      <workItem from="1645541057470" duration="4875000" />
+      <workItem from="1645610907356" duration="5149000" />
     </task>
+    <task id="LOCAL-00001" summary="feat : migration of typescript">
+      <created>1645444095961</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1645444095961</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,6 +359,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="feat : migration of typescript" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : migration of typescript" />
   </component>
   <component name="WindowStateProjectService">
     <state x="638" y="340" width="653" height="524" key="#ESLint" timestamp="1643709084473">
@@ -383,34 +379,38 @@
       <screen x="0" y="43" width="1536" height="821" />
     </state>
     <state x="499" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.43.1536.821@0.43.1536.821" timestamp="1644356238903" />
-    <state x="310" y="43" key="CommitChangelistDialog2" timestamp="1645443928806">
+    <state x="310" y="43" key="CommitChangelistDialog2" timestamp="1645444092533">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="310" y="43" key="CommitChangelistDialog2/0.43.1536.821@0.43.1536.821" timestamp="1645443928806" />
+    <state x="310" y="43" key="CommitChangelistDialog2/0.43.1536.821@0.43.1536.821" timestamp="1645444092533" />
     <state width="496" height="466" key="DebuggerActiveHint" timestamp="1644178212916">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
     <state width="496" height="466" key="DebuggerActiveHint/0.43.1536.821@0.43.1536.821" timestamp="1644178212916" />
+    <state x="147" y="108" key="DiffContextDialog" timestamp="1645444123186">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state x="147" y="108" key="DiffContextDialog/0.43.1536.821@0.43.1536.821" timestamp="1645444123186" />
     <state x="745" y="303" key="FileChooserDialogImpl" timestamp="1643713291215">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
     <state x="745" y="303" key="FileChooserDialogImpl/0.43.1536.821@0.43.1536.821" timestamp="1643713291215" />
-    <state width="757" height="208" key="GridCell.Tab.0.bottom" timestamp="1645369415994">
+    <state width="757" height="151" key="GridCell.Tab.0.bottom" timestamp="1645615796642">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state width="757" height="208" key="GridCell.Tab.0.bottom/0.43.1536.821@0.43.1536.821" timestamp="1645369415994" />
-    <state width="757" height="208" key="GridCell.Tab.0.center" timestamp="1645369415994">
+    <state width="757" height="151" key="GridCell.Tab.0.bottom/0.43.1536.821@0.43.1536.821" timestamp="1645615796642" />
+    <state width="757" height="151" key="GridCell.Tab.0.center" timestamp="1645615796642">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state width="757" height="208" key="GridCell.Tab.0.center/0.43.1536.821@0.43.1536.821" timestamp="1645369415994" />
-    <state width="757" height="208" key="GridCell.Tab.0.left" timestamp="1645369415994">
+    <state width="757" height="151" key="GridCell.Tab.0.center/0.43.1536.821@0.43.1536.821" timestamp="1645615796642" />
+    <state width="757" height="151" key="GridCell.Tab.0.left" timestamp="1645615796642">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state width="757" height="208" key="GridCell.Tab.0.left/0.43.1536.821@0.43.1536.821" timestamp="1645369415994" />
-    <state width="757" height="208" key="GridCell.Tab.0.right" timestamp="1645369415994">
+    <state width="757" height="151" key="GridCell.Tab.0.left/0.43.1536.821@0.43.1536.821" timestamp="1645615796642" />
+    <state width="757" height="151" key="GridCell.Tab.0.right" timestamp="1645615796642">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state width="757" height="208" key="GridCell.Tab.0.right/0.43.1536.821@0.43.1536.821" timestamp="1645369415994" />
+    <state width="757" height="151" key="GridCell.Tab.0.right/0.43.1536.821@0.43.1536.821" timestamp="1645615796642" />
     <state width="1515" height="260" key="GridCell.Tab.1.bottom" timestamp="1644178282921">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
@@ -463,6 +463,10 @@
       <screen x="0" y="43" width="1536" height="821" />
     </state>
     <state x="277" y="99" key="SettingsEditor/0.43.1536.821@0.43.1536.821" timestamp="1644618793777" />
+    <state x="361" y="187" key="Vcs.Push.Dialog.v2" timestamp="1645444152724">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state x="361" y="187" key="Vcs.Push.Dialog.v2/0.43.1536.821@0.43.1536.821" timestamp="1645444152724" />
     <state x="635" y="324" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1644618043872">
       <screen x="0" y="43" width="1536" height="821" />
     </state>

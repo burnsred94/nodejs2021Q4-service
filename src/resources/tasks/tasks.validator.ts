@@ -8,21 +8,18 @@ export const validationChainTaskPostMethod = [
   body('description')
     .exists({checkFalsy: true, checkNull: true})
     .isString()
-    .isLength({min : 5}),
-  // body('userId')
-  //   .isString(),
-  // body('boardId')
-  //   .isUUID('all'),
-  // body('columnId')
-  //   .isUUID
-
-]
+    .isLength({min : 5})
+];
 
 export const validationChainTaskUpdateMethod = [
-  body('taskId','ID incorrect' )
+  body('title', "Title incorrect")
+    .exists({checkFalsy: true, checkNull: true})
+    .isString()
+    .isLength({min: 2}),
+  body('description',"Description incorrect")
+    .exists({checkFalsy: true, checkNull: true})
+    .isString()
     .isString(),
-
-
 ];
 
 export const validationChainTaskOtherMethod = [

@@ -2,9 +2,9 @@ import { v4 as uuid4 } from 'uuid';
 import { IBoard } from './board.types';
 
 export class Board implements IBoard{
-  id : string
-  title : string
-  columns : { columnId: string; title: string; order: number }[]
+  id : string;
+  title : string;
+  columns : { columnId: string; title: string; order: number }[];
   constructor({
       id = uuid4(),
       title = 'Title',
@@ -14,11 +14,11 @@ export class Board implements IBoard{
           order : 0
     }]
   } = {}) {
-    this.id = id
+    this.id = id;
     this.title = title;
-    this.columns = columns
-  }
-};
+    this.columns = columns;
+  };
+}
 
 
 

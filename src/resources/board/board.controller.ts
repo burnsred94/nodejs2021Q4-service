@@ -2,55 +2,55 @@ import express from 'express'
 import { Board } from './board.model';
 import { STATUS_CODE } from '../../common/constans';
 import * as serviceBoard from './board.service'
-import  * as serviceTask from '../tasks/tasks.service'
+
 
 export class BoardController {
 
   async getAllBoard(req : express.Request, res: express.Response){
     try{
-      const getAllBoard = await serviceBoard.getAll()
-          res.status(STATUS_CODE.OK).json(getAllBoard)
+      const allBoard = await serviceBoard.getAll()
+          res.status(STATUS_CODE.OK).json(allBoard)
     }catch (e){
-          res.status(STATUS_CODE.SERVER_ERROR).send(e.message)
+          res.status(STATUS_CODE.SERVER_ERROR).json({message : "Get all boards server error"})
     }
   };
   async getBoardId(req : express.Request, res: express.Response){
     try{
-      const getBoardId = await serviceBoard.getBoardId(req.params.boardId)
-        if(getBoardId){
-          res.status(STATUS_CODE.OK).json(getBoardId)
+      const board = await serviceBoard.getBoardId(req.params.boardId)
+        if(board){
+          res.status(STATUS_CODE.OK).json(board);
         }else{
-          res.status(STATUS_CODE.NOT_FOUND).json({message : 'Board not found'})
+          res.status(STATUS_CODE.NOT_FOUND).json({message : `Board ${req.params.boardId}`});
         }
     }catch (e) {
-        res.status(STATUS_CODE.SERVER_ERROR).send(e.message)
+        res.status(STATUS_CODE.SERVER_ERROR).json({message : "Get board server error"});
     }
   };
   async createBoard(req : express.Request, res : express.Response) {
     try {
-      const creatBoard = await serviceBoard.createBoard(new Board({
+      const board = await serviceBoard.createBoard(new Board({
         title : req.body.title,
         columns : req.body.columns
       }));
-        res.status(STATUS_CODE.CREATE).json(creatBoard)
+        res.status(STATUS_CODE.CREATE).json(board);
     }catch (e) {
-        res.status(STATUS_CODE.SERVER_ERROR).json({message: 'Create board error'})
+        res.status(STATUS_CODE.SERVER_ERROR).json({message: 'Create board error'});
     }
   };
 
   async updateBoard(req : express.Request, res : express.Response) {
     try{
-      const board = await serviceBoard.getBoardId(req.params.boardId)
+      const board = await serviceBoard.getBoardId(req.params.boardId);
       if(!board){
-        res.status(STATUS_CODE.NOT_FOUND).json({message : `Board ${req.params.boardId} not found`})
+        res.status(STATUS_CODE.NOT_FOUND).json({message : `Board ${req.params.boardId} not found`});
       }else {
         const updateBoard = new Board({
           id: req.params.boardId,
           title: req.body.title,
           columns: req.body.columns
-        })
-        await serviceBoard.updateBoard(req.params.boardId, updateBoard)
-        res.status(STATUS_CODE.OK).json(updateBoard)
+        });
+        await serviceBoard.updateBoard(req.params.boardId, updateBoard);
+        res.status(STATUS_CODE.OK).json(updateBoard);
       }
     }catch (e){
         res.status(STATUS_CODE.SERVER_ERROR).json({message : 'Update board error'})
@@ -58,17 +58,14 @@ export class BoardController {
   };
   async deleteBoard(req : express.Request, res : express.Response){
     try{
-      const deleteBoard = await serviceBoard.boardDelete(req.params.boardId)
-      const deleteTask = await serviceTask.deleteTasksInBoard(req.params.boardId)
-      if(deleteTask && deleteBoard === true){
-        res.status(STATUS_CODE.OK).json({message : "Board and Task delete"})
-      }else if(deleteBoard === true){
-        res.status(STATUS_CODE.OK).json({message : "Board delete"})
+      const deleteBoard = await serviceBoard.boardDelete(req.params.boardId);
+      if(deleteBoard){
+        res.status(STATUS_CODE.OK).json({message : "Board delete"});
       }else {
-        res.status(STATUS_CODE.NOT_FOUND).json({message : "Board and Task Not found"})
+        res.status(STATUS_CODE.NOT_FOUND).json({message : "Board and Task Not found"});
       }
     }catch (e) {
-        res.status(STATUS_CODE.SERVER_ERROR).send(e.message)
+        res.status(STATUS_CODE.SERVER_ERROR).json({message : "Delete board server error"});
     }
   }
 }

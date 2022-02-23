@@ -7,8 +7,9 @@ import { User } from './user.model';
 
 export class UsersDB {
     private usersCollection: InMemoryDatabaseCollection<User>;
+
     constructor() {
-        this.usersCollection  = new InMemoryDatabase().getOrAddCollection(User)
+        this.usersCollection  = new InMemoryDatabase().getOrAddCollection(User);
     };
 
     getAll() {
@@ -31,7 +32,7 @@ export class UsersDB {
         return this.usersCollection.delete(id);
     };
 
-};
+}
 
 
 

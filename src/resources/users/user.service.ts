@@ -3,7 +3,7 @@ import { User } from './user.model';
 
 const userRepository = new UsersDB()
 
-const getAll = () => userRepository.getAll() ;
+const getAll = () => userRepository.getAll();
 
 const getById = (id: string) => userRepository.getById(id);
 
@@ -11,7 +11,7 @@ const updateUser = (id : string, update: User) => userRepository.updateUser(id, 
 
 const createUser = (user: User) => userRepository.createUser(user);
 
-const deleteUser = (id: string) => userRepository.deleteUser(id)
+const deleteUser = (id: string) => userRepository.deleteUser(id);
 
 export {
     getAll,

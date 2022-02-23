@@ -8,7 +8,7 @@ export const validationChainBoardUpdateMethod : ValidationChain[] = [
   body('columns', 'Board columns incorrect')
     .exists({checkNull: true, checkFalsy : true})
     .isArray({min : 1})
-]
+];
 
 export const validationChainBoardCreatMethod = [
   body('title', 'Board title incorrect')

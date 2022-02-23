@@ -3,13 +3,13 @@ import { ITask } from './tasks.types'
 
 
 export class Task implements ITask{
-  id : string
-  title : string
-  order : number
-  description : string
-  userId : null
-  boardId : string
-  columnId : null
+  id : string;
+  title : string;
+  order : number;
+  description : string;
+  userId : null;
+  boardId : string;
+  columnId : null;
   constructor({
     id = uuid(),
     title = "Title",
@@ -27,7 +27,7 @@ export class Task implements ITask{
     this.boardId = boardId;
     this.columnId = columnId;
 
-  }
+  };
 
 }
 

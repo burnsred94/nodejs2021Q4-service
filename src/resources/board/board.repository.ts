@@ -23,7 +23,7 @@ export class BoardDB {
   };
 
   async deleteBoard(id : string): Promise <true | undefined> {
-    const findBoard = await this.getBoardId(id)
+    const findBoard = await this.getBoardId(id);
     if(typeof findBoard === 'undefined'){
       return findBoard
     }else{
@@ -35,6 +35,6 @@ export class BoardDB {
 
   updateBoard(id : string, boardUpdate : Board) {
     return this.boardCollection.update(id, boardUpdate);
-  }
+  };
 
-};
+}

@@ -12,7 +12,7 @@ export const validationChainUserMethodPost = [
     .isString()
     .exists({checkNull: true})
     .isLength({min : 5}),
-]
+];
 
 export const validationChainUserMethodPut = [
   param('userId').isUUID('all'),
@@ -27,11 +27,11 @@ export const validationChainUserMethodPut = [
     .isString()
     .exists({checkNull: true})
     .isLength({min : 5}),
-]
+];
 
 export const validationChainUserOtherMethod = [
   param('userId').isUUID('all')
-]
+];
 
 
 

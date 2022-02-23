@@ -1,6 +1,5 @@
 import { v4 as uuid4 } from 'uuid'
 import { IUser } from './user.types';
-import { DatabaseEntity } from '../../common/database/database.type';
 
 
 export class User implements IUser {
@@ -8,7 +7,7 @@ export class User implements IUser {
   name : string;
   login : string;
   password : string;
-  toResponse : (user: User) => object
+  toResponse : (user: User) => object;
   constructor({
     id  = uuid4(),
     name = "Name",

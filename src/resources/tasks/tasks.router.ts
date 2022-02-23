@@ -13,7 +13,7 @@ taskRouter.route('/tasks')
 taskRouter.route('/tasks/:taskId')
   .get(tasksValidator.validate(validationChainTaskOtherMethod), tasksController.getTaskId)
   .delete(tasksValidator.validate(validationChainTaskOtherMethod), tasksController.deleteTask)
-  .put( tasksController.updateTask)
+  .put(tasksValidator.validate(validationChainTaskUpdateMethod),tasksController.updateTask)
 
 
   
