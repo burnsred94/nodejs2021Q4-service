@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/burnsred94/nodejs2021Q4-service"
   },
   "type": "commonjs",
   "description": "REST service starter for RS School",
