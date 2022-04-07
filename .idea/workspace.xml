@@ -20,36 +20,271 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0fbb4c3-7722-4d25-a8e6-1da8f20ef523" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/common/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/common/constans.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/common/database/InMemoryDatabase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/common/database/InMemoryDatabaseCollection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/common/database/database.type.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/common/validatorDataRequsets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/resources/board/board.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/resources/board/board.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/resources/board/board.repository.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/resources/board/board.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/resources/board/board.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/resources/board/board.types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/resources/board/board.validator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/resources/users/user.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/resources/users/user.repository.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/resources/users/user.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/resources/users/user.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/resources/users/user.types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/resources/users/user.validator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/resources/users/users.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/board/board.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/board/board.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/board/board.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/board/board.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/board/board.repository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/board/board.repository.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/board/board.router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/board/board.router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/board/board.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/board/board.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/board/board.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/board/board.types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/board/board.validator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/board/board.validator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/tasks/tasks.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/tasks/tasks.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/tasks/tasks.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/tasks/tasks.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/tasks/tasks.repository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/tasks/tasks.repository.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/tasks/tasks.router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/tasks/tasks.router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/tasks/tasks.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/tasks/tasks.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/tasks/tasks.validator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/tasks/tasks.validator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/users/user.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/users/user.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/users/user.repository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/users/user.repository.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/users/user.router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/users/user.router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/users/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/users/user.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/users/user.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/users/user.types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/users/user.validator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/users/user.validator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/users/users.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/users/users.controller.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Oleg Kamenshikov &lt;67732974+burnsred94@users.noreply.github.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="rest-file" />
+        <entry key="$PROJECT_DIR$" value="final-rest" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/resources/users/user.validator.ts" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupnpm">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
   <component name="ProjectId" id="24TaxHCvfjyQ2rHGUGyFIs27Nez" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="jsx.switch.disabled" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="D:\Code\nodejs2021Q4-service\nodejs2021Q4-service\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\nodejs2021Q4-service\nodejs2021Q4-service\src\common" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:4000" />
+          <option name="urlPath" value="/users" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:4000" />
+          <option name="urlPath" value="/boards" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:4000" />
+          <option name="urlPath" value="/boards" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:4000" />
+          <option name="urlPath" value="/users" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Jest.Boards suite.DELETE.should delete board's tasks upon deletion">
+    <configuration name="Boards suite.DELETE.should delete board's tasks upon deletion" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/test/e2e/test/boards.test.js" />
+      <test-names>
+        <test-name value="Boards suite" />
+        <test-name value="DELETE" />
+        <test-name value="should delete board's tasks upon deletion" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.lint" />
+        <item itemvalue="npm.test" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="Jest.Boards suite.DELETE.should delete board's tasks upon deletion" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -59,8 +294,52 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1643657274506</updated>
-      <workItem from="1643657275607" duration="150000" />
+      <workItem from="1643657275607" duration="506000" />
+      <workItem from="1643708676414" duration="2103000" />
+      <workItem from="1643998984796" duration="1155000" />
+      <workItem from="1644147430508" duration="11283000" />
+      <workItem from="1644175146040" duration="3117000" />
+      <workItem from="1644316020678" duration="3729000" />
+      <workItem from="1644348122604" duration="6514000" />
+      <workItem from="1644415427045" duration="4042000" />
+      <workItem from="1644444071806" duration="2650000" />
+      <workItem from="1644525008753" duration="8819000" />
+      <workItem from="1644584517761" duration="1343000" />
+      <workItem from="1644592616412" duration="5304000" />
+      <workItem from="1644611702280" duration="6358000" />
+      <workItem from="1644618233903" duration="304000" />
+      <workItem from="1644618570507" duration="332000" />
+      <workItem from="1644618915477" duration="662000" />
+      <workItem from="1644690480745" duration="5065000" />
+      <workItem from="1644757231286" duration="3840000" />
+      <workItem from="1644828273517" duration="15613000" />
+      <workItem from="1644866686805" duration="7416000" />
+      <workItem from="1644927686805" duration="3234000" />
+      <workItem from="1644957741747" duration="1409000" />
+      <workItem from="1645012128615" duration="3278000" />
+      <workItem from="1645035494959" duration="2681000" />
+      <workItem from="1645099855627" duration="13987000" />
+      <workItem from="1645125686222" duration="689000" />
+      <workItem from="1645185233943" duration="2565000" />
+      <workItem from="1645195562437" duration="5909000" />
+      <workItem from="1645215513260" duration="118000" />
+      <workItem from="1645215673671" duration="4316000" />
+      <workItem from="1645346179307" duration="14453000" />
+      <workItem from="1645440181207" duration="4992000" />
+      <workItem from="1645456903519" duration="1698000" />
+      <workItem from="1645469090129" duration="2691000" />
+      <workItem from="1645475763323" duration="1205000" />
+      <workItem from="1645541057470" duration="4875000" />
+      <workItem from="1645610907356" duration="5149000" />
     </task>
+    <task id="LOCAL-00001" summary="feat : migration of typescript">
+      <created>1645444095961</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1645444095961</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,5 +355,133 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="feat : migration of typescript" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : migration of typescript" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="638" y="340" width="653" height="524" key="#ESLint" timestamp="1643709084473">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state x="638" y="340" width="653" height="524" key="#ESLint/0.43.1536.821@0.43.1536.821" timestamp="1643709084473" />
+    <state x="512" y="278" key="#Notifications" timestamp="1645215542158">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state x="512" y="278" key="#Notifications/0.43.1536.821@0.43.1536.821" timestamp="1645215542158" />
+    <state x="574" y="170" key="#com.intellij.ide.util.MemberChooser" timestamp="1644871830193">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state x="574" y="170" key="#com.intellij.ide.util.MemberChooser/0.43.1536.821@0.43.1536.821" timestamp="1644871830193" />
+    <state x="499" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1644356238903">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state x="499" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.43.1536.821@0.43.1536.821" timestamp="1644356238903" />
+    <state x="310" y="43" key="CommitChangelistDialog2" timestamp="1645444092533">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state x="310" y="43" key="CommitChangelistDialog2/0.43.1536.821@0.43.1536.821" timestamp="1645444092533" />
+    <state width="496" height="466" key="DebuggerActiveHint" timestamp="1644178212916">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state width="496" height="466" key="DebuggerActiveHint/0.43.1536.821@0.43.1536.821" timestamp="1644178212916" />
+    <state x="147" y="108" key="DiffContextDialog" timestamp="1645444123186">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state x="147" y="108" key="DiffContextDialog/0.43.1536.821@0.43.1536.821" timestamp="1645444123186" />
+    <state x="745" y="303" key="FileChooserDialogImpl" timestamp="1643713291215">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state x="745" y="303" key="FileChooserDialogImpl/0.43.1536.821@0.43.1536.821" timestamp="1643713291215" />
+    <state width="757" height="151" key="GridCell.Tab.0.bottom" timestamp="1645615796642">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state width="757" height="151" key="GridCell.Tab.0.bottom/0.43.1536.821@0.43.1536.821" timestamp="1645615796642" />
+    <state width="757" height="151" key="GridCell.Tab.0.center" timestamp="1645615796642">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state width="757" height="151" key="GridCell.Tab.0.center/0.43.1536.821@0.43.1536.821" timestamp="1645615796642" />
+    <state width="757" height="151" key="GridCell.Tab.0.left" timestamp="1645615796642">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state width="757" height="151" key="GridCell.Tab.0.left/0.43.1536.821@0.43.1536.821" timestamp="1645615796642" />
+    <state width="757" height="151" key="GridCell.Tab.0.right" timestamp="1645615796642">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state width="757" height="151" key="GridCell.Tab.0.right/0.43.1536.821@0.43.1536.821" timestamp="1645615796642" />
+    <state width="1515" height="260" key="GridCell.Tab.1.bottom" timestamp="1644178282921">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state width="1515" height="260" key="GridCell.Tab.1.bottom/0.43.1536.821@0.43.1536.821" timestamp="1644178282921" />
+    <state width="1515" height="260" key="GridCell.Tab.1.center" timestamp="1644178282921">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state width="1515" height="260" key="GridCell.Tab.1.center/0.43.1536.821@0.43.1536.821" timestamp="1644178282921" />
+    <state width="1515" height="260" key="GridCell.Tab.1.left" timestamp="1644178282921">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state width="1515" height="260" key="GridCell.Tab.1.left/0.43.1536.821@0.43.1536.821" timestamp="1644178282921" />
+    <state width="1515" height="260" key="GridCell.Tab.1.right" timestamp="1644178282921">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state width="1515" height="260" key="GridCell.Tab.1.right/0.43.1536.821@0.43.1536.821" timestamp="1644178282921" />
+    <state width="1515" height="260" key="GridCell.Tab.2.bottom" timestamp="1644178282921">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state width="1515" height="260" key="GridCell.Tab.2.bottom/0.43.1536.821@0.43.1536.821" timestamp="1644178282921" />
+    <state width="1515" height="260" key="GridCell.Tab.2.center" timestamp="1644178282921">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state width="1515" height="260" key="GridCell.Tab.2.center/0.43.1536.821@0.43.1536.821" timestamp="1644178282921" />
+    <state width="1515" height="260" key="GridCell.Tab.2.left" timestamp="1644178282921">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state width="1515" height="260" key="GridCell.Tab.2.left/0.43.1536.821@0.43.1536.821" timestamp="1644178282921" />
+    <state width="1515" height="260" key="GridCell.Tab.2.right" timestamp="1644178282921">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state width="1515" height="260" key="GridCell.Tab.2.right/0.43.1536.821@0.43.1536.821" timestamp="1644178282921" />
+    <state width="1515" height="260" key="GridCell.Tab.3.bottom" timestamp="1644178282921">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state width="1515" height="260" key="GridCell.Tab.3.bottom/0.43.1536.821@0.43.1536.821" timestamp="1644178282921" />
+    <state width="1515" height="260" key="GridCell.Tab.3.center" timestamp="1644178282921">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state width="1515" height="260" key="GridCell.Tab.3.center/0.43.1536.821@0.43.1536.821" timestamp="1644178282921" />
+    <state width="1515" height="260" key="GridCell.Tab.3.left" timestamp="1644178282921">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state width="1515" height="260" key="GridCell.Tab.3.left/0.43.1536.821@0.43.1536.821" timestamp="1644178282921" />
+    <state width="1515" height="260" key="GridCell.Tab.3.right" timestamp="1644178282921">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state width="1515" height="260" key="GridCell.Tab.3.right/0.43.1536.821@0.43.1536.821" timestamp="1644178282921" />
+    <state x="277" y="99" key="SettingsEditor" timestamp="1644618793777">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state x="277" y="99" key="SettingsEditor/0.43.1536.821@0.43.1536.821" timestamp="1644618793777" />
+    <state x="361" y="187" key="Vcs.Push.Dialog.v2" timestamp="1645444152724">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state x="361" y="187" key="Vcs.Push.Dialog.v2/0.43.1536.821@0.43.1536.821" timestamp="1645444152724" />
+    <state x="635" y="324" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1644618043872">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state x="635" y="324" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/0.43.1536.821@0.43.1536.821" timestamp="1644618043872" />
+    <state x="545" y="226" key="refactoring.ChangeSignatureDialog" timestamp="1645110855043">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state x="545" y="226" key="refactoring.ChangeSignatureDialog/0.43.1536.821@0.43.1536.821" timestamp="1645110855043" />
+    <state x="425" y="208" key="run.anything.popup" timestamp="1645359931449">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state x="425" y="208" key="run.anything.popup/0.43.1536.821@0.43.1536.821" timestamp="1645359931449" />
+    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1645351324794">
+      <screen x="0" y="43" width="1536" height="821" />
+    </state>
+    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup/0.43.1536.821@0.43.1536.821" timestamp="1645351324794" />
   </component>
 </project>
